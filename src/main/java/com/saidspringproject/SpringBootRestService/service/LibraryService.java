@@ -25,5 +25,14 @@ public class LibraryService {
 		else
 			return false;
 	}
+	
+	public boolean checkIDAlreadyExists(String id) {
+		Optional<Library> lib = repository.findById(id);
+		
+		if(lib.isPresent())
+			return true;
+		else
+			return false;
+	}
 
 }
