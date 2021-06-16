@@ -424,3 +424,168 @@ Caused by: java.lang.IllegalStateException: Cannot load driver class: com.mysql.
 2021-06-14 03:31:27.782  INFO 2880 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-06-14 03:31:27.782  INFO 2880 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2021-06-14 03:31:27.784  INFO 2880 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-06-14 16:07:46.418  INFO 17204 --- [main] .S.SpringBootRestServiceApplicationTests : Starting SpringBootRestServiceApplicationTests using Java 15.0.2 on DESKTOP-MM8CJJA with PID 17204 (started by Said in E:\springstuff\SpringBootRestService)
+2021-06-14 16:07:46.434  INFO 17204 --- [main] .S.SpringBootRestServiceApplicationTests : No active profile set, falling back to default profiles: default
+2021-06-14 16:07:47.094  INFO 17204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-14 16:07:47.145  INFO 17204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2021-06-14 16:07:47.807  INFO 17204 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-14 16:07:47.855  INFO 17204 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-14 16:07:47.990  INFO 17204 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-14 16:07:48.145  INFO 17204 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-14 16:07:48.526  INFO 17204 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-14 16:07:48.539  INFO 17204 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-06-14 16:07:49.140  INFO 17204 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-14 16:07:49.148  INFO 17204 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-14 16:07:49.722  WARN 17204 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-14 16:07:50.349  INFO 17204 --- [main] .S.SpringBootRestServiceApplicationTests : Started SpringBootRestServiceApplicationTests in 4.289 seconds (JVM running for 5.543)
+2021-06-14 16:07:50.350  INFO 17204 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-14 16:07:50.352  INFO 17204 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-14 16:08:25.924  INFO 12872 --- [main] .S.SpringBootRestServiceApplicationTests : Starting SpringBootRestServiceApplicationTests using Java 15.0.2 on DESKTOP-MM8CJJA with PID 12872 (started by Said in E:\springstuff\SpringBootRestService)
+2021-06-14 16:08:25.927  INFO 12872 --- [main] .S.SpringBootRestServiceApplicationTests : No active profile set, falling back to default profiles: default
+2021-06-14 16:08:26.514  INFO 12872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-14 16:08:26.562  INFO 12872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2021-06-14 16:08:27.121  INFO 12872 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-14 16:08:27.173  INFO 12872 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-14 16:08:27.298  INFO 12872 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-14 16:08:27.442  INFO 12872 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-14 16:08:27.807  INFO 12872 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-14 16:08:27.819  INFO 12872 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-06-14 16:08:28.392  INFO 12872 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-14 16:08:28.400  INFO 12872 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-14 16:08:28.948  WARN 12872 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-14 16:08:29.564  INFO 12872 --- [main] .S.SpringBootRestServiceApplicationTests : Started SpringBootRestServiceApplicationTests in 3.919 seconds (JVM running for 4.885)
+2021-06-14 16:08:29.565  INFO 12872 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-14 16:08:29.566  INFO 12872 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-14 16:11:17.369  INFO 15364 --- [main] .S.SpringBootRestServiceApplicationTests : Starting SpringBootRestServiceApplicationTests using Java 15.0.2 on DESKTOP-MM8CJJA with PID 15364 (started by Said in E:\springstuff\SpringBootRestService)
+2021-06-14 16:11:17.375  INFO 15364 --- [main] .S.SpringBootRestServiceApplicationTests : No active profile set, falling back to default profiles: default
+2021-06-14 16:11:17.980  INFO 15364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-14 16:11:18.033  INFO 15364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2021-06-14 16:11:18.602  INFO 15364 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-14 16:11:18.672  INFO 15364 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-14 16:11:18.807  INFO 15364 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-14 16:11:18.962  INFO 15364 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-14 16:11:19.371  INFO 15364 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-14 16:11:19.389  INFO 15364 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-06-14 16:11:19.976  INFO 15364 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-14 16:11:19.985  INFO 15364 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-14 16:11:20.523  WARN 15364 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-14 16:11:21.081  INFO 15364 --- [main] .S.SpringBootRestServiceApplicationTests : Started SpringBootRestServiceApplicationTests in 4.012 seconds (JVM running for 5.029)
+2021-06-14 16:11:21.082  INFO 15364 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-14 16:11:21.083  INFO 15364 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-14 16:11:44.602  INFO 4604 --- [main] .S.SpringBootRestServiceApplicationTests : Starting SpringBootRestServiceApplicationTests using Java 15.0.2 on DESKTOP-MM8CJJA with PID 4604 (started by Said in E:\springstuff\SpringBootRestService)
+2021-06-14 16:11:44.605  INFO 4604 --- [main] .S.SpringBootRestServiceApplicationTests : No active profile set, falling back to default profiles: default
+2021-06-14 16:11:45.187  INFO 4604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-14 16:11:45.239  INFO 4604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2021-06-14 16:11:45.815  INFO 4604 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-14 16:11:45.862  INFO 4604 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-14 16:11:45.981  INFO 4604 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-14 16:11:46.114  INFO 4604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-14 16:11:46.503  INFO 4604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-14 16:11:46.517  INFO 4604 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-06-14 16:11:47.090  INFO 4604 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-14 16:11:47.097  INFO 4604 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-14 16:11:47.636  WARN 4604 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-14 16:11:48.208  INFO 4604 --- [main] .S.SpringBootRestServiceApplicationTests : Started SpringBootRestServiceApplicationTests in 3.882 seconds (JVM running for 4.85)
+2021-06-14 16:11:48.209  INFO 4604 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-14 16:11:48.211  INFO 4604 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-14 16:12:00.948  INFO 2076 --- [main] .S.SpringBootRestServiceApplicationTests : Starting SpringBootRestServiceApplicationTests using Java 15.0.2 on DESKTOP-MM8CJJA with PID 2076 (started by Said in E:\springstuff\SpringBootRestService)
+2021-06-14 16:12:00.952  INFO 2076 --- [main] .S.SpringBootRestServiceApplicationTests : No active profile set, falling back to default profiles: default
+2021-06-14 16:12:01.656  INFO 2076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-14 16:12:01.727  INFO 2076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.
+2021-06-14 16:12:02.363  INFO 2076 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-14 16:12:02.415  INFO 2076 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-14 16:12:02.546  INFO 2076 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-14 16:12:02.697  INFO 2076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-14 16:12:03.068  INFO 2076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-14 16:12:03.083  INFO 2076 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-06-14 16:12:03.744  INFO 2076 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-14 16:12:03.754  INFO 2076 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-14 16:12:04.394  WARN 2076 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-14 16:12:05.070  INFO 2076 --- [main] .S.SpringBootRestServiceApplicationTests : Started SpringBootRestServiceApplicationTests in 4.452 seconds (JVM running for 5.545)
+2021-06-14 16:12:05.072  INFO 2076 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-14 16:12:05.074  INFO 2076 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-14 17:07:15.679  INFO 19000 --- [main] .S.SpringBootRestServiceApplicationTests : Starting SpringBootRestServiceApplicationTests using Java 15.0.2 on DESKTOP-MM8CJJA with PID 19000 (started by Said in E:\springstuff\SpringBootRestService)
+2021-06-14 17:07:15.682  INFO 19000 --- [main] .S.SpringBootRestServiceApplicationTests : No active profile set, falling back to default profiles: default
+2021-06-14 17:07:16.299  INFO 19000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-14 17:07:16.352  INFO 19000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2021-06-14 17:07:17.325  INFO 19000 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-14 17:07:17.373  INFO 19000 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-14 17:07:17.414  INFO 19000 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-14 17:07:17.562  INFO 19000 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-14 17:07:17.977  INFO 19000 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-14 17:07:17.993  INFO 19000 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-06-14 17:07:18.450  INFO 19000 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-14 17:07:18.458  INFO 19000 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-14 17:07:18.759  WARN 19000 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-14 17:07:19.434  INFO 19000 --- [main] .S.SpringBootRestServiceApplicationTests : Started SpringBootRestServiceApplicationTests in 4.09 seconds (JVM running for 5.218)
+2021-06-14 17:07:19.435  INFO 19000 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-14 17:07:19.437  INFO 19000 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-14 17:07:19.512  INFO 19000 --- [main] c.s.S.controller.LibraryController       : Book does not exist so creating one
+2021-06-14 17:08:17.157  INFO 19316 --- [main] .S.SpringBootRestServiceApplicationTests : Starting SpringBootRestServiceApplicationTests using Java 15.0.2 on DESKTOP-MM8CJJA with PID 19316 (started by Said in E:\springstuff\SpringBootRestService)
+2021-06-14 17:08:17.159  INFO 19316 --- [main] .S.SpringBootRestServiceApplicationTests : No active profile set, falling back to default profiles: default
+2021-06-14 17:08:17.770  INFO 19316 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-14 17:08:17.820  INFO 19316 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2021-06-14 17:08:18.788  INFO 19316 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-14 17:08:18.838  INFO 19316 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-14 17:08:18.877  INFO 19316 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-14 17:08:19.014  INFO 19316 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-14 17:08:19.369  INFO 19316 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-14 17:08:19.383  INFO 19316 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-06-14 17:08:19.819  INFO 19316 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-14 17:08:19.827  INFO 19316 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-14 17:08:20.097  WARN 19316 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-14 17:08:20.714  INFO 19316 --- [main] .S.SpringBootRestServiceApplicationTests : Started SpringBootRestServiceApplicationTests in 3.845 seconds (JVM running for 4.825)
+2021-06-14 17:08:20.715  INFO 19316 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-14 17:08:20.717  INFO 19316 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-14 17:08:20.772  INFO 19316 --- [main] c.s.S.controller.LibraryController       : Book does not exist so creating one
+2021-06-14 17:10:29.217  INFO 14044 --- [main] .S.SpringBootRestServiceApplicationTests : Starting SpringBootRestServiceApplicationTests using Java 15.0.2 on DESKTOP-MM8CJJA with PID 14044 (started by Said in E:\springstuff\SpringBootRestService)
+2021-06-14 17:10:29.220  INFO 14044 --- [main] .S.SpringBootRestServiceApplicationTests : No active profile set, falling back to default profiles: default
+2021-06-14 17:10:29.847  INFO 14044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-14 17:10:29.898  INFO 14044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2021-06-14 17:10:30.860  INFO 14044 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-14 17:10:30.909  INFO 14044 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-14 17:10:30.955  INFO 14044 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-14 17:10:31.108  INFO 14044 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-14 17:10:31.502  INFO 14044 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-14 17:10:31.515  INFO 14044 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-06-14 17:10:31.971  INFO 14044 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-14 17:10:31.979  INFO 14044 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-14 17:10:32.284  WARN 14044 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-14 17:10:32.921  INFO 14044 --- [main] .S.SpringBootRestServiceApplicationTests : Started SpringBootRestServiceApplicationTests in 3.995 seconds (JVM running for 5.053)
+2021-06-14 17:10:32.922  INFO 14044 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-14 17:10:32.924  INFO 14044 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-14 17:10:32.993  INFO 14044 --- [main] c.s.S.controller.LibraryController       : Book does not exist so creating one
+2021-06-14 17:13:36.568  INFO 15832 --- [main] .S.SpringBootRestServiceApplicationTests : Starting SpringBootRestServiceApplicationTests using Java 15.0.2 on DESKTOP-MM8CJJA with PID 15832 (started by Said in E:\springstuff\SpringBootRestService)
+2021-06-14 17:13:36.570  INFO 15832 --- [main] .S.SpringBootRestServiceApplicationTests : No active profile set, falling back to default profiles: default
+2021-06-14 17:13:37.201  INFO 15832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-14 17:13:37.250  INFO 15832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2021-06-14 17:13:38.205  INFO 15832 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-14 17:13:38.265  INFO 15832 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-14 17:13:38.312  INFO 15832 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-14 17:13:38.463  INFO 15832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-14 17:13:38.855  INFO 15832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-14 17:13:38.870  INFO 15832 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-06-14 17:13:39.313  INFO 15832 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-14 17:13:39.321  INFO 15832 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-14 17:13:39.615  WARN 15832 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-14 17:13:40.286  INFO 15832 --- [main] .S.SpringBootRestServiceApplicationTests : Started SpringBootRestServiceApplicationTests in 4.03 seconds (JVM running for 5.04)
+2021-06-14 17:13:40.288  INFO 15832 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-14 17:13:40.289  INFO 15832 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-14 17:13:40.369  INFO 15832 --- [main] c.s.S.controller.LibraryController       : Book does not exist so creating one
+2021-06-14 17:16:17.737  INFO 8536 --- [main] .S.SpringBootRestServiceApplicationTests : Starting SpringBootRestServiceApplicationTests using Java 15.0.2 on DESKTOP-MM8CJJA with PID 8536 (started by Said in E:\springstuff\SpringBootRestService)
+2021-06-14 17:16:17.740  INFO 8536 --- [main] .S.SpringBootRestServiceApplicationTests : No active profile set, falling back to default profiles: default
+2021-06-14 17:16:18.448  INFO 8536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-14 17:16:18.509  INFO 8536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2021-06-14 17:16:19.580  INFO 8536 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-14 17:16:19.640  INFO 8536 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-14 17:16:19.693  INFO 8536 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-14 17:16:19.866  INFO 8536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-14 17:16:20.221  INFO 8536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-14 17:16:20.237  INFO 8536 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-06-14 17:16:20.672  INFO 8536 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-14 17:16:20.679  INFO 8536 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-14 17:16:20.971  WARN 8536 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-14 17:16:21.586  INFO 8536 --- [main] .S.SpringBootRestServiceApplicationTests : Started SpringBootRestServiceApplicationTests in 4.16 seconds (JVM running for 5.168)
+2021-06-14 17:16:21.587  INFO 8536 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-14 17:16:21.588  INFO 8536 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-14 17:16:21.674  INFO 8536 --- [main] c.s.S.controller.LibraryController       : Book does not exist so creating one

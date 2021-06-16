@@ -13,7 +13,13 @@ public class LibraryService {
 	@Autowired
 	LibraryRepository repository;
 	
-	public String buildID(String Isbn, int Aisle) {
+	public String buildID(String Isbn, int Aisle) 
+	{
+		if(Isbn.startsWith("Z"))
+		{
+			return "OLD"+Isbn+Aisle;
+		}
+		
 		return Isbn+Aisle;
 	}
 	
